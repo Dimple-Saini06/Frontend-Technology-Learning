@@ -1,0 +1,28 @@
+h2{
+    color:rgb(163, 8, 8);
+}
+
+
+#pets{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    border:2px solid;
+    width:300px;
+    border-radius: 15px;
+    padding:10px;
+    margin:10px;
+    
+}
+img{
+    width:100%;
+    border-radius: 15px;
+} 
+
+h4{
+    text-align:right;
+    color:rgb(94, 92, 92);
+}
+

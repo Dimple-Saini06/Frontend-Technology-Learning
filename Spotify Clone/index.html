@@ -13,32 +13,67 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body class="m-0 bg-black text-white overflow-hidden">
+    <!-- navigation -->
     <div class="navigation flex">
-        <div class="spo-icon py-[15px] ml-[25px] w-[470px]">
+        <div class="spo-icon py-[15px] ml-[25px] w-md">
             <i class="fa-brands fa-spotify text-3xl"></i>
         </div>
-        <div class="search-bar m-2 rounded-full bg-[#1d1c1c] transition-transform hover:scale-[1.1] hover:bg-[#2c2c2c]">
-            <div class="px-[10px] py-[10px]">
+
+        <div class="search-bar m-2 rounded-full bg-[#1d1c1c] ml-8 transition-transform hover:scale-[1.1] hover:bg-[#2c2c2c]">
+            <div class="px-[9px] py-[10px]">
                 <i class="fa-solid fa-house text-2xl"></i>
             </div>
         </div>
-        <div class="install bg-[#1d1c1c] rounded-full h-[40px] mt-2 px-3 py-6 flex items-center gap-3 hover:bg-[#2c2c2c] hover:border-[0.5px] border-gray-800 hover:shadow-[30px] shadow-gray-100">
-            <i class="fa-solid fa-magnifying-glass text-xl"></i>
-            <p>What do you want to play?</p>
-            <div class="ml-30">
-                <span class="height text-2xl mr-1 ">|</span>
-                <i class="fa-solid fa-cart-shopping text-xl mr-2"></i>
+
+        <div class="install bg-[#1d1c1c] rounded-full h-[40px] mt-2 px-3 py-6 flex items-center gap-3 hover:bg-[#2c2c2c]">
+            <i class="fa-solid fa-magnifying-glass search-i text-xl opacity-40 hover:opacity-100"></i>
+            <p class="opacity-60 text-sm">What do you want to play?</p>
+            <div class="ml-40">
+                <span class="height text-2xl mr-1  opacity-60">|</span>
+                <i class="fa-solid fa-cart-shopping box text-xl mr-2 opacity-60 hover:opacity-200">
+                    <span class="browser text-sm bg-[#2c2c2c] font-extrabold p-2 rounded-sm absolute top-15 hidden">Browser</span>
+                </i>
             </div>
         </div>
-        <div class="explore bg-white text-black rounded-full">Explore Premium</div>
+
+        <div class="last-nav-div ml-20 flex items-center gap-5">
+            <div class="explore bg-white text-black rounded-full flex items-center py-2 px-4 font-extrabold text-xs hover:opacity-85">Explore Premium</div>
+            <div class="opacity-60 hover:opacity-100"><i class="fa-regular fa-circle-down "></i><span class="text-xs font-extrabold pl-1.5">Install App</span></div>
+            <div class="flex gap-5">
+                <i class="fa-regular fa-bell bell ml-5 text-lg opacity-60 hover:opacity-100">
+                    <div class="bell-text text-xs font-bold bg-[#1d1c1c] p-2 rounded-sm absolute top-15 hidden">What's New</div>
+                </i>
+                <i class="fa-solid fa-user-group friend opacity-60 hover:opacity-100">
+                    <div class="friend-text text-xs font-bold bg-[#1d1c1c] p-1 rounded-sm absolute top-15 hidden">Friend Acitivity</div>
+                </i>
+            </div>
+            <div class="rounded-full bg-[#1d1c1c] px-2 py-2 transition-transform hover:scale-[1.1]">
+                <div class="name rounded-full bg-orange-600 px-2 py-0.5 text-black font-bold">D
+                    <div class="hide-span text-white bg-[#1d1c1c] p-2 rounded-sm text-xs absolute top-12 hidden">dish</div>
+                </div>   
+            </div> 
+        </div>
     </div>
+
+    <!-- main part -->
     <div class="main flex h-screen">
-        <div class="sidebar bg-[#121212] w-[340px] rounded-2xl">
+        <div class="sidebar bg-[#121212] w-sm mx-2 px-2 py-3 rounded-lg">
+            <div class="library-icon px-4 flex items-center justify-between">
+                <i class="fa-solid fa-book opacity-65 book hover:opacity-100"></i>
+                <h3 class="text-sm font-bold">Your Library</h3>
+                <div class="create-plus bg-[#1d1c1c] rounded-full flex items-center p-2 hover:bg-[#2c2c2c]">
+                    <i class="fa-regular fa-plus plus text-2xl opacity-60 hover:opacity-100"></i>
+                    <span class="text-sm font-extrabold pr-2">Create</span>
+                </div>
+            </div>
+
             <div class="nav"></div>
             <div class="library"></div>
         </div>
+
+
         <div class="main-content bg-[#121212] flex-1 rounded-2xl overflow-auto">main</div>
         <div class="music-player bg-black fixed bottom-0 w-full h-[72px]">music</div>
-    </div>
+    </div> 
 </body>
 </html>

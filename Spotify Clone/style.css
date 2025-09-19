@@ -5,3 +5,39 @@
 body i:hover{
     cursor:pointer;
 }
+
+.install:hover .search-i{
+    opacity:1;
+}
+
+.box:hover .browser{
+    display:block;
+}
+
+.last-nav-div:hover div,i{
+    cursor:pointer;
+}
+
+.name:hover .hide-span{
+    display:block
+}
+
+.create-plus:hover .plus{
+    opacity:1;
+}
+
+.book{
+    display: none;
+}
+
+.sidebar:hover .book{
+    display: block;
+}
+
+.bell:hover .bell-text{
+    display:block;
+}
+
+.friend:hover .friend-text{
+    display:block;
+}

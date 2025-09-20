@@ -41,3 +41,7 @@ body i:hover{
 .friend:hover .friend-text{
     display:block;
 }
+
+.main-content span:hover{
+    cursor: pointer;
+}

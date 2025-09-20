@@ -57,7 +57,7 @@
 
     <!-- main part -->
     <div class="main flex h-screen">
-        <div class="sidebar bg-[#121212] w-sm mx-2 px-2 py-3 rounded-lg">
+        <div class="sidebar flex flex-col gap-6 bg-[#121212] max-w-[350px] mx-2 px-2 py-3 rounded-lg">
             <div class="library-icon px-4 flex items-center justify-between">
                 <i class="fa-solid fa-book opacity-65 book hover:opacity-100"></i>
                 <h3 class="text-sm font-bold">Your Library</h3>
@@ -67,12 +67,24 @@
                 </div>
             </div>
 
-            <div class="nav"></div>
-            <div class="library"></div>
+            <div class="create-playlist bg-[#1d1c1c] rounded-lg mt-4 pt-2 px-6 leading-[5]">
+                <h3 class="font-extrabold text-sm leading-[3]">Create your first playlist</h3>
+                <p class="text-xs font-bold">It's easy,we'll help you</p>
+                <span class="bg-white text-black text-xs font-extrabold rounded-full px-4 py-2 hover:cursor-pointer">Create playlist</span>
+            </div>
+            <div class="browser-podcast bg-[#1d1c1c] rounded-lg pt-2 px-6 leading-[5]">
+                <h3 class="font-extrabold text-sm leading-[3]">Let's find some podcasts to follow</h3>
+                <p class="text-xs font-bold">We'll keep your updated on new episodes</p>
+                <span class="bg-white text-black text-xs font-extrabold rounded-full px-4 py-2 hover:cursor-pointer">Browser podcast</span>
+            </div>
         </div>
 
 
-        <div class="main-content bg-[#121212] flex-1 rounded-2xl overflow-auto">main</div>
+        <div class="main-content bg-gradient-to-b from-yellow-900 via-black to-black flex-1  rounded-2xl py-5 px-10 overflow-auto">
+            <span class="all bg-white text-black text-sm px-3 py-2 rounded-full hover:bg-gray-100">All</span>
+            <span class="music bg-[rgba(70,50,30,0.65)] text-sm text-white px-3 py-2 rounded-full hover:bg-[rgba(70,50,30,0.95)]">Music</span>
+            <span class="podcast bg-[rgba(70,50,30,0.65)] text-sm text-white px-3 py-2 rounded-full hover:bg-[rgba(70,50,30,0.95)]">Podcasts</span>
+        </div>
         <div class="music-player bg-black fixed bottom-0 w-full h-[72px]">music</div>
     </div> 
 </body>

@@ -44,4 +44,19 @@ body i:hover{
 
 .main-content span:hover{
     cursor: pointer;
+    background-color: #292828;
+}
+
+.card{
+    padding:1%;
+    max-width: 200px;
+}
+.card:hover{
+    background-color: #232323;
+    border-radius:0.5rem;
+   
+}
+
+.card .img{
+    border-radius: 0.5rem;
 }

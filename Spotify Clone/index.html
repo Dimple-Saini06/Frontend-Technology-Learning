@@ -31,7 +31,7 @@
             <div class="ml-40">
                 <span class="height text-2xl mr-1  opacity-60">|</span>
                 <i class="fa-solid fa-cart-shopping box text-xl mr-2 opacity-60 hover:opacity-200">
-                    <span class="browser text-sm bg-[#2c2c2c] font-extrabold p-2 rounded-sm absolute top-15 hidden">Browser</span>
+                    <span class="browser text-sm bg-[#2c2c2c] font-extrabold p-2 rounded-sm absolute top-7 hidden">Browser</span>
                 </i>
             </div>
         </div>
@@ -41,15 +41,15 @@
             <div class="opacity-60 hover:opacity-100"><i class="fa-regular fa-circle-down "></i><span class="text-xs font-extrabold pl-1.5">Install App</span></div>
             <div class="flex gap-5">
                 <i class="fa-regular fa-bell bell ml-5 text-lg opacity-60 hover:opacity-100">
-                    <div class="bell-text text-xs font-bold bg-[#1d1c1c] p-2 rounded-sm absolute top-15 hidden">What's New</div>
+                    <div class="bell-text text-xs font-bold bg-[#1d1c1c] p-2 rounded-sm absolute top-7 hidden">What's New</div>
                 </i>
                 <i class="fa-solid fa-user-group friend opacity-60 hover:opacity-100">
-                    <div class="friend-text text-xs font-bold bg-[#1d1c1c] p-1 rounded-sm absolute top-15 hidden">Friend Acitivity</div>
+                    <!-- <div class="friend-text text-xs font-bold bg-[#1d1c1c] p-1 rounded-sm absolute top-7 hidden">Friend Acitivity</div> -->
                 </i>
             </div>
             <div class="rounded-full bg-[#1d1c1c] px-2 py-2 transition-transform hover:scale-[1.1]">
                 <div class="name rounded-full bg-orange-600 px-2 py-0.5 text-black font-bold">D
-                    <div class="hide-span text-white bg-[#1d1c1c] p-2 rounded-sm text-xs absolute top-12 hidden">dish</div>
+                    <div class="hide-span text-white bg-[#1d1c1c] p-2 rounded-sm text-xs absolute top-5 hidden">dish</div>
                 </div>   
             </div> 
         </div>
@@ -80,161 +80,225 @@
             </div>
         </div>
 
-
-        <div class="main-content bg-[#121212] flex-1  rounded-2xl overflow-auto">
+        <!-- between part -->
+        <div class="main-content bg-[#121212] flex-1  rounded-2xl overflow-y-auto overflow-x-hidden">
             <div class="sticky top-0 z-90 flex justify-start gap-2 bg-[#121212] px-[3rem] py-[1rem]">
-                <span class="all bg-white text-black text-sm px-3 py-2 rounded-full">All</span>
-                <span class="music bg-[rgba(70,50,30,0.65)] text-sm text-white px-3 py-2 rounded-full hover:bg-[rgba(70,50,30,0.95)]">Music</span>
-                <span class="podcast bg-[rgba(70,50,30,0.65)] text-sm text-white px-3 py-2 rounded-full hover:bg-[rgba(70,50,30,0.95)]">Podcasts</span>
+                <span class="icon all bg-white text-black text-sm px-3 py-2 rounded-full hover:bg-[#f5f7f9]">All</span>
+                <span class="icon music bg-[rgba(70,50,30,0.65)] text-sm text-white px-3 py-2 rounded-full hover:bg-[rgba(70,50,30,0.95)]">Music</span>
+                <span class="icon podcast bg-[rgba(70,50,30,0.65)] text-sm text-white px-3 py-2 rounded-full hover:bg-[rgba(70,50,30,0.95)]">Podcasts</span>
             </div>
             <div class="px-[3rem]">
-                
-                    <div class="mt-[1rem] flex justify-between">
-                        <h3 class="text-xl font-bold">Recommended for you</h3>
-                        <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
+                <div class="mt-[1rem] flex justify-between">
+                    <h3 class="text-xl font-bold">Recommended for you</h3>
+                    <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
+                </div>
+                <div class="card-container1 my-[0.5rem] flex gap-5">
+                    <div class="card max-w-[200px]">
+                        <div class="img bg-[url(tollywood.jpg)] bg-cover bg-no-repeat size-44"></div>
+                        <p class="text-sm font-bold text-gray-400">The finest set of Telugu music from the past 10...</p>
                     </div>
-                    <div class="card-container1 my-[0.5rem] flex gap-5">
-                        <div class="card max-w-[200px]">
-                            <div class="img bg-[url(tollywood.jpg)] bg-cover bg-no-repeat size-44"></div>
-                            <p class="text-sm font-bold text-gray-400">The finest set of Telugu music from the past 10...</p>
-                        </div>
-                        <div class="card">
-                            <div class="img bg-[url(saiyara.jpg)] bg-cover bg-no-repeat size-44"></div>
-                            <p class="text-sm font-bold text-gray-400">Hottest Hindi music that India is listening to...</p>
-                        </div>
-                        <div class="card">
-                            <div class="img bg-[url(haryanvi.jpg)] bg-cover bg-no-repeat size-44"></div>
-                            <p class="text-sm font-bold text-gray-400">Biggest Haryanvi hits from the last 10 years...</p>
-                        </div>
-                        <div class="card">
-                            <div class="img bg-[url(bollywood.jpg)] bg-cover bg-no-repeat size-44"></div>
-                            <p class="text-sm font-bold  text-gray-400">Bollywood Central,jab baje toh seedha dil ke...</p>
-                        </div>
-                        <div class="card">
-                            <div class="img bg-[url(kollywood.jpg)] bg-cover bg-no-repeat size-44"></div>
-                            <p class="text-sm font-bold text-gray-400">Finest collection of tamil Music from the past 10...</p>
-                        </div>
-                        <div class="card">
+                    <div class="card">
+                        <div class="img bg-[url(saiyara.jpg)] bg-cover bg-no-repeat size-44"></div>
+                        <p class="text-sm font-bold text-gray-400">Hottest Hindi music that India is listening to...</p>
+                    </div>
+                    <div class="card">
+                        <div class="img bg-[url(haryanvi.jpg)] bg-cover bg-no-repeat size-44"></div>
+                        <p class="text-sm font-bold text-gray-400">Biggest Haryanvi hits from the last 10 years...</p>
+                    </div>
+                    <div class="card">
+                        <div class="img bg-[url(bollywood.jpg)] bg-cover bg-no-repeat size-44"></div>
+                        <p class="text-sm font-bold  text-gray-400">Bollywood Central,jab baje toh seedha dil ke...</p>
+                    </div>
+                    <div class="card">
+                        <div class="img bg-[url(kollywood.jpg)] bg-cover bg-no-repeat size-44"></div>
+                        <p class="text-sm font-bold text-gray-400">Finest collection of tamil Music from the past 10...</p>
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(punjab.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold text-gray-400">Ultimate 101 PunjabiHits with Arjan Dhillon...</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(rap.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold text-gray-400">India's Rap Scene. cover -ARJN X KDS...</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(taklu.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold text-gray-400">Hottest tracks from your favorite I-Pop Icons...</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(indie.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold text-gray-400">Best of the Indian Indie scene.Cover-Faheem...</p>
-                        </div>
                     </div>
+                </div>
                     
-                    <div class="mt-[3rem] flex justify-between">
+                <div class="mt-[3rem] flex justify-between">
                         <h3 class="text-xl font-bold">Episodes you might like</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
-                    </div>
-                    <div class="my-[0.5rem] flex gap-5">
-                        <div class="card">
+                </div>
+                <div class="my-[0.5rem] flex gap-5">
+                    <div class="card">
                             <div class="img bg-[url(anything.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(speak.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(ie.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(jocker.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(sadface.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(earth.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(shinchan.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(vocabulary.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(crime.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
                     </div>
-                    <div class="mt-[3rem] flex justify-between">
+                </div>
+                <div class="mt-[3rem] flex justify-between">
                         <h3 class="text-xl font-bold">Recently played</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
-                    </div>
-                    <div class="my-[0.5rem] flex gap-5">
-                        <div class="card">
+                </div>
+                <div class="my-[0.5rem] flex gap-5">
+                    <div class="card">
                             <div class="img bg-[url(red.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(card1img.jpeg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
                     </div>
-                    <div class="mt-[3rem] flex justify-between">
+                </div>
+                <div class="mt-[3rem] flex justify-between">
                         <h3 class="text-xl font-bold">Editor's Pick</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
-                    </div>
-                    <div class="my-[0.5rem] flex gap-5">
-                        <div class="card">
+                </div>
+                <div class="my-[0.5rem] flex gap-5">
+                    <div class="card">
                             <div class="img bg-[url(all-out.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(trending.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(chill.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(1am.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(da.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(grwm.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(de.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(card2img.jpeg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
-                        </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
                             <div class="img bg-[url(card3img.jpeg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
+                    </div>
+                </div>
+                    <!-- footer -->
+                <div class="footer mt-20 mb-30 h-[400px]">
+                    <div class="line w-[100%] h-[10%] border-t opacity-10"></div>
+                    <div class="mt-10 flex justify-between">
+                        <div class="flex gap-20">
+                            <div>
+                                <span class="text-sm font-bold">Company</span>
+                                <ul>
+                                    <li>About</li>
+                                    <li>Jobs</li>
+                                    <li>For the Record</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <span class="text-sm font-bold">Communities</span>
+                                <ul>
+                                    <li>For Artists</li>
+                                    <li>Developers</li>
+                                    <li>Advertising</li>
+                                    <li>Investors</li>
+                                    <li>Vendors</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <span class="text-sm font-bold">Useful links</span>
+                                <ul>
+                                    <li>Support</li>
+                                    <li>Free Mobile App</li>
+                                    <li>Popular by Country</li>
+                                    <li>Import your music</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <span class="text-sm font-bold">Spotify Plans</span>
+                                <ul>
+                                    <li>Premium Individual</li>
+                                    <li>Premium Duo</li>
+                                    <li>Premium Family</li>
+                                    <li>Premium Student</li>
+                                    <li>Spotify Free</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex gap-4">
+                                <span class=" bg-[#1d1c1c] rounded-full p-3 flex justify-center items-center hover:bg-gray-400"><i class="fa-brands fa-instagram"></i></span>
+                                <span class=" bg-[#1d1c1c] rounded-full p-3 flex justify-center items-center hover:bg-gray-400"><i class="fa-brands fa-twitter"></i></span>
+                                <span class="bg-[#1d1c1c] rounded-full p-3 flex justify-center items-center hover:bg-gray-400"><i class="fa-brands fa-facebook"></i></span>
+                            </div>
                         </div>
                     </div>
 
-            </div>
-            <div>
-                <div class="line"></div>
-            </div>
+                    
+                    <div class="line mt-3 w-[100%] h-[10%] border-b opacity-10"></div>
+                    <div class="flex justify-between mt-10">
+                        <ul class="flex gap-5">
+                            <li><a>Legal</a></li>
+                            <li><a>Safety & Privacy Center</a></li>
+                            <li><a>Privacy Policy</a></li>
+                            <li><a>Cookies</a></li>
+                            <li><a>About Ads</a></li>
+                            <li><a>Accessibility</a></li>
+                        </ul>
+                        <div>
+                            <i class="fa-regular fa-copyright copyright"></i>
+                            <date class="text-sm font-bold text-[#B3B3B3]">2025</date>
+                            <span class="text-sm font-bold text-[#B3B3B3]">Spotify AB</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="music-player bg-black fixed bottom-0 w-full h-[72px]">music</div>

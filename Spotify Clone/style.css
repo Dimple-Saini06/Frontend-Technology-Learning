@@ -82,3 +82,65 @@ h3{
     font-size:12px;
     color:#B3B3B3;
 }
+
+.liked:hover .ad{
+    display:block;
+}
+
+.volume, .music:hover .v-circle{
+    display:block;
+}
+.music:hover .volume{
+    background-color:green;
+}
+
+.p-i:hover .p-v{
+    display: block;
+}
+
+.mike:hover .ly{
+    display:block;
+}
+
+.humb:hover .qu{
+    display:block;
+}
+
+.connect:hover .device{
+    display:block;
+}
+
+.music:hover .mute{
+    display:block;
+}
+
+.player:hover .mini{
+    display:block;
+}
+
+.full:hover .screen{
+    display:block;
+}
+
+.enable:hover .shuffle{
+    display:block;
+}
+
+.pre:hover .vious{
+    display:block;
+}
+
+.pla:hover .ys{
+    display:block;
+}
+
+.ne:hover .xt{
+    display:block;
+}
+
+.re:hover .peat{
+    display:block;
+}
+
+
+

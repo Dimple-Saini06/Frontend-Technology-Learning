@@ -104,10 +104,105 @@ switch(day){
 //generate warning and error
 
 
-alert("THIS IS GOOD WEBSITE");
+/*alert("THIS IS GOOD WEBSITE");
 let name = prompt("give me your name!");
 let mes = "WELCOME"+ " " + name + "!"; 
 alert(mes);
 
 console.warn("THIS IS WARNING");
-console.error("THIS IS ERROR");
+console.error("THIS IS ERROR");*/
+
+
+//que1
+/*let num = 9;
+
+if(num %10 == 0){
+    console.log("THE NUMBER IS GOOD!!");
+}
+else{
+    console.log("THE NUMBER IS BAD!!");
+}*/
+
+//que2
+
+/*let name = prompt("ENTER YOUR NAME");
+let age = prompt("ENTER YOUR AGE");
+
+alert(`${name} is ${age} years old.`)*/
+
+//QUE3
+/*let month = 8;
+
+switch(month){
+    case 1:
+        console.log("January,February,March");
+        break;
+    case 2:
+        console.log("April,May,June");
+        break;
+    case 3:
+        console.log("July,August,September");
+        break;
+    case 4:
+        console.log("October,November,December");
+        break;
+    default:
+        console.log("default month!!");
+}*/
+
+//QUE4
+
+/*let str = "Apge";
+
+if((str[0] == 'A' || str[0] == 'a') && str.length > 5){
+    console.log("GOLDEN STRING!!");
+} 
+else{
+    console.log("NOT GOLDEN STRING!!");
+}*/
+
+//QUE5
+/*let a = 232;
+let b = 43;
+if(a[a.length-1] && b[b.length-1]){
+    console.log("same digit!!");
+}
+else{
+    console.log("not same digit!!");
+}*/
+
+// Que6
+/*let a= 76;
+let b= 9;
+let c= 7;
+if(a>b && a>c){ 
+    console.log("A is greater than B & C!!");
+}
+else if(b>a && b>c){
+    console.log("B is greater than A & C!!");
+}
+else {
+    console.log("C is greater than B & A!!");
+}*/
+
+
+// strings concepts
+
+/*let msg = "             hello              ";
+console.log(msg.trim());
+console.log(msg);*/
+
+/*let msg = "         kushal";
+console.log(msg.toUpperCase());
+console.log(msg);*/
+
+// console.log(msg.indexOf("u"));
+
+/*let newMsg = msg.toUpperCase().trim();
+console.log(newMsg);
+let str = "ilovecoding";
+console.log(str.slice(1,5));
+console.log(str.slice(-6));
+console.log(str.replace("love", "do"));
+console.log(msg.repeat(6));*/
+

@@ -14,12 +14,12 @@
 </head>
 <body class="m-0 bg-black text-white overflow-hidden">
     <!-- navigation -->
-    <div class="navigation flex sticky top-0">
+    <div class="navigation flex sticky top-0 sm:flex justify-between">
         <div class="spo-icon py-[15px] ml-[25px] w-md">
             <i class="fa-brands fa-spotify text-3xl"></i>
         </div>
 
-        <div class="search-bar m-2 rounded-full bg-[#1d1c1c] ml-8 transition-transform hover:scale-[1.1] hover:bg-[#2c2c2c]">
+        <div class="search-bar md:m-2 rounded-full bg-[#1d1c1c] ml-8 transition-transform hover:scale-[1.1] hover:bg-[#2c2c2c]">
             <div class="px-[9px] py-[10px]">
                 <i class="fa-solid fa-house text-2xl"></i>
             </div>
@@ -52,6 +52,11 @@
                     <div class="hide-span text-white bg-[#1d1c1c] p-2 rounded-sm text-xs absolute top-5 hidden">dish</div>
                 </div>   
             </div> 
+        </div>
+
+        <div class="hide-div flex justify-center items-center gap-1 invisible max-sm:visible max-sm:mr-2">
+                <div class="open text-xs font-bold bg-white rounded-full text-black w-[70px] h-[25px] flex flex-wrap items-center justify-center">Open App</div>
+                <i class="fa-solid fa-bars"></i>
         </div>
     </div>
 
@@ -135,7 +140,7 @@
                         <h3 class="text-xl font-bold">Episodes you might like</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
                 </div>
-                <div class="my-[0.5rem] flex gap-5">
+                <div class="card-container2 my-[0.5rem] flex gap-5">
                     <div class="card">
                             <div class="img bg-[url(anything.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
@@ -178,7 +183,7 @@
                         <h3 class="text-xl font-bold">Recently played</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
                 </div>
-                <div class="my-[0.5rem] flex gap-5">
+                <div class="card-container3  my-[0.5rem] flex gap-5">
                     <div class="card">
                             <div class="img bg-[url(red.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
@@ -188,11 +193,12 @@
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
                     </div>
                 </div>
+
                 <div class="mt-[3rem] flex justify-between">
                         <h3 class="text-xl font-bold">Editor's Pick</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
                 </div>
-                <div class="my-[0.5rem] flex gap-5">
+                <div class="card-container4 my-[0.5rem] flex gap-5">
                     <div class="card">
                             <div class="img bg-[url(all-out.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
@@ -230,11 +236,12 @@
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
                     </div>
                 </div>
+
                 <div class="mt-[3rem] flex justify-between">
                         <h3 class="text-xl font-bold">More like THE 9TEEN</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
                 </div>
-                <div class="my-[0.5rem] flex gap-5">
+                <div class="card-container5 my-[0.5rem] flex gap-5">
                     <div class="card">
                             <div class="img bg-[url(91.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
@@ -277,7 +284,7 @@
                         <h3 class="text-xl font-bold">Sad songs</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
                 </div>
-                <div class="my-[0.5rem] flex gap-5">
+                <div class="card-container6 my-[0.5rem] flex gap-5">
                     <div class="card">
                             <div class="img bg-[url(sad.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
@@ -320,7 +327,7 @@
                         <h3 class="text-xl font-bold">Chill</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
                 </div>
-                <div class="my-[0.5rem] flex gap-5">
+                <div class="card-container7 my-[0.5rem] flex gap-5">
                     <div class="card">
                             <div class="img bg-[url(c1.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
@@ -363,7 +370,7 @@
                         <h3 class="text-xl font-bold">Happy</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
                 </div>
-                <div class="my-[0.5rem] flex gap-5">
+                <div class="card-container8 my-[0.5rem] flex gap-5">
                     <div class="card">
                             <div class="img bg-[url(h1.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
@@ -406,7 +413,7 @@
                         <h3 class="text-xl font-bold">Party</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
                 </div>
-                <div class="my-[0.5rem] flex gap-5">
+                <div class="card-container9 my-[0.5rem] flex gap-5">
                     <div class="card">
                             <div class="img bg-[url(p1.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
@@ -449,7 +456,7 @@
                         <h3 class="text-xl font-bold">Workout</h3>
                         <a href="#" class="text-sm font-bold text-gray-400 hover:underline decoration-1 decoration-white">Show all</a>
                 </div>
-                <div class="my-[0.5rem] flex gap-5">
+                <div class="card-container10 my-[0.5rem] flex gap-5">
                     <div class="card">
                             <div class="img bg-[url(w1.jpg)] bg-cover bg-no-repeat size-44"></div>
                             <p class="text-sm font-bold mt-2 text-gray-400">Gigi Perez, Ravyn Lenae and The Maris</p>
@@ -560,7 +567,7 @@
             </div>
         </div>
         <div class="music-player bg-black fixed bottom-0 w-full h-[72px] px-4 flex justify-between items-center">
-            <div class="flex gap-3">
+            <div class="left flex gap-3">
                 <div class="bg-[url(saiyara.jpg)] bg-cover h-[50px] w-[50px]"></div>
                 <div class="flex flex-col justify-center">
                     <a class="text-sm font-bold hover:underline">Saiyaara(From"Saiyaara")</a>
@@ -575,7 +582,7 @@
                     <span class="ad text-xs font-bold bg-[#1d1c1c] p-1 rounded-sm absolute bottom-12 hidden">Add to Liked Songs</span>
                 </div>
             </div>
-            <div>
+            <div class="mid">
                 <div class="flex gap-5 justify-center items-center text-lg">
                     <div class="enable">
                         <i class="fa-solid fa-shuffle text-[#838080] hover:text-white hover:scale-[1.1]"></i>
@@ -605,7 +612,7 @@
 
                 </div>
             </div>
-            <div class="flex items-center gap-3 text-md text-[#838080]">
+            <div class="right flex items-center gap-3 text-md text-[#838080]">
                 <div class="p-i">
                     <i class="fa-regular fa-square-caret-right  hover:text-white hover:scale-[1.1]"></i>
                     <span class="p-v text-xs font-bold bg-[#1d1c1c] text-white p-1 rounded-sm absolute bottom-12 hidden">Now playing view</span>
@@ -636,6 +643,12 @@
                 <div class="full mr-3">
                     <i class="fa-solid fa-expand hover:text-white hover:scale-[1.1]"></i>
                     <span class="screen text-xs font-bold bg-[#1d1c1c] text-white p-1 rounded-sm absolute bottom-12 hidden">Enter Full screen</span>
+                </div>
+            </div>
+            <div>
+                <div class="invisible max-sm:visible">
+                        <i class="fa-solid fa-house"></i>
+                        <h4>HOME</h4>
                 </div>
             </div>
         </div>

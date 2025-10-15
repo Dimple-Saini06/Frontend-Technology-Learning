@@ -57,10 +57,29 @@ console.log("the index of javascript is: ", code.indexOf('javascript'));*/
 
 
 //GAME TICTOC
-let game = [['X', null, 'O'], [null, 'X', null], ['O', null, 'X']];
+// let game = [['X', null, 'O'], [null, 'X', null], ['O', null, 'X']];
 
 //que
 
-let num = [1,2,3,4,5];
+/*let num = [1,2,3,4,5];
 console.log(num.slice(0,3));
-console.log(num.slice(-3));
+console.log(num.slice(-3));*/
+
+
+/*let str = prompt("Enter a string:");
+if(str == ""){
+    console.log("Empty String");
+}
+else{
+    console.log("String is not Empty");
+}*/
+/*let checkEle = prompt("enter number");
+let ele = ['1','2','3','4','5'];
+
+if(ele.includes(checkEle)){
+    console.log("number is present");
+}
+else{
+    console.log("number is not present");
+}*/
+

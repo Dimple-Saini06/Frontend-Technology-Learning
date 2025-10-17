@@ -47,9 +47,9 @@ for(let i=fruits.length-1; i>=0;i--){
     }
 }*/
 
-let fruits = [["apple", "banana", "grapes"], ["mango", "litchi", "strawberry"]];
+/*let fruits = [["apple", "banana", "grapes"], ["mango", "litchi", "strawberry"]];
 for(frut of fruits){
     for(fru of frut){
         console.log(fru);
     }
-}
+}*/

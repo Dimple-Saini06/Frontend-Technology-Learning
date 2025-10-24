@@ -53,3 +53,72 @@ for(frut of fruits){
         console.log(fru);
     }
 }*/
+
+
+
+//QUES
+// 1
+/*let arr = [1,2,3,4,5,6,2,3];
+let num = prompt("ENTER A NUMBER:");
+for(let i=0;i<arr.length;i++){
+    if(arr[i]== num){
+        arr.splice(i,1);
+    }
+}
+
+console.log(arr);*/
+
+
+//2
+/*let number = 287152;
+let sum = 0;
+while(number > 0){
+    let rem = number % 10;
+    sum += rem;
+    number= Math.floor(number / 10);
+}
+console.log("SUM OF DIGITS:", sum);*/
+
+
+
+//3
+/*let n = prompt("ENTER A NUMBER:");
+
+while(n>0){
+   if(n==0){
+    console.log("1");
+    break;
+   }
+   else{
+    let fact = 1;
+    for(let i=n;i>=1;i--){
+        fact = fact*i;
+    }
+    console.log(fact);
+    break;
+   }
+}*/
+
+
+//4
+/*let arr=[12,995,10,4,2,27,1,9];
+let largest=0;
+for(let i=0;i<arr.length;i++){
+    if(largest <arr[i]){
+        largest = arr[i];
+    }
+    
+}
+console.log(largest);*/
+
+
+//5
+/*let number=287152;
+let count=0;
+let copy=number;
+while(copy>0){
+    count++;
+    copy=Math.floor(copy/10);
+    console.log(copy);
+}
+console.log(count);*/

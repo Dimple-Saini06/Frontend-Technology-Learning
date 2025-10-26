@@ -54,7 +54,7 @@ const classInfo = [
 
 
 //GAME
-let num = prompt("ENTER THE RANGE WHICH YOU WANT TO GUESS");
+/*let num = prompt("ENTER THE RANGE WHICH YOU WANT TO GUESS");
 let randomNum = Math.floor(Math.random() * num) +1;
 let GuessNum = prompt("GUESS THE NUMBER");
 while(true){
@@ -73,4 +73,4 @@ while(true){
     else{
         GuessNum = prompt("WRONG GUESS!! THE NUMBER TOO LARGE...");
     }
-}
+}*/

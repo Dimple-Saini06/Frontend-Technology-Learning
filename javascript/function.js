@@ -172,7 +172,7 @@ console.log(uniqueChar(str));*/
 
 
 //11
-let arr = [1,2,3,4,6,7,8,9,5,10];
+/*let arr = [1,2,3,4,6,7,8,9,5,10];
 let num = 6;
 function largestEle(arr, num){
     for(let i=0;i<arr.length;i++){
@@ -182,4 +182,129 @@ function largestEle(arr, num){
     }  
 }
 
-largestEle(arr, num);
+largestEle(arr, num);*/
+
+
+
+//this keyword
+/*const person = {
+    name :"Dimple",
+    eng : 10,
+    math:70,
+    hindi:100,
+    getAvg(){
+        console.log(this);
+        let avg = (this.eng + this.math + this.hindi)/3;
+        return avg;
+    }
+}
+
+console.log(person.getAvg());*/
+
+//try & catch
+/*console.log("hello");
+try{
+    console.log(a);
+} catch{
+    console.log("error is 'a' not defined");
+}
+
+console.log("hello1");*/
+
+
+//arrow fxn
+/*const sum = (a,b) => a+b;
+
+console.log(sum(13,6));*/
+
+
+//time function
+/*console.log("hii");
+setTimeout(name, 500);
+console.log("welcome to");
+function name(){
+    console.log("APNA COLLLEGE!!");
+};*/
+
+/*let id = setInterval(name, 1000);
+function name(){
+    console.log("APNA COLLLEGE!!");
+};*/
+
+/*const std = {
+    name:"kushal",
+    age:25,
+    gender:"male",
+    getAvg: function(){
+        console.log(this);
+    },
+    getGender: () => {
+        console.log(this);
+    }
+};
+
+std.getAvg();
+std.getGender();*/
+
+
+
+/*const squ = (n) => n*n;
+console.log(squ(6));*/
+
+/*let id = setInterval( () => {
+    console.log("HELLO")
+}, 2000);
+
+
+setTimeout(() => {
+    console.log("STOP");
+    clearInterval(id);
+}, 10000);*/
+
+
+/*const arrayAvg = (arr) => {
+    let avg = 0;
+    for(let i=0;i<arr.length;i++){
+        
+        avg+= arr[i];
+        
+    }
+     return avg/arr.length;
+}
+
+let arr = [2,4,6,8,10];
+console.log(arrayAvg(arr));*/
+
+
+/*const iseven = (n) =>{
+    if(n%2 == 0){
+        console.log("EVEN");
+    } else{
+        console.log("ODD");
+    }
+};
+
+iseven(2);*/
+
+/*const object = { 
+    message:'Hello,World!',
+    logMessage(){
+        console.log(this.message);
+    }
+};
+object.logMessage();
+setTimeout(object.logMessage,1000);*/
+
+/*let length  = 4;
+function callback() {
+    console.log(this.length);
+}
+
+
+const object={
+    length:5,
+    method(callback){
+        callback();
+    },
+};
+object.method(callback,1,2);*/

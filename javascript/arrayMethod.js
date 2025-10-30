@@ -106,9 +106,74 @@ console.log(sum(2));*/
 console.log(arr);*/
 
 
-const info = {
+/*const info = {
     email : "xyz.gmail.com",
     password : 123
 };
 
-const dataCopy = {...info, id:101};
+const dataCopy = {...info, id:101};*/
+
+
+//REST
+/*function sum(msg, ...args){
+    console.log(msg);
+    return args.reduce((sum, el) => sum+el);
+}
+
+console.log(sum("SUM IS: ", 1,2,3,4));*/
+
+//DESTRUCTURING
+/*let name = ["tony", "bruce", "steve", "peter"];
+let [winner, runnerup, ...other] = name;
+*/
+
+
+/*const std = {
+    name: "dimple",
+    age: 19,
+    username : "dish613",
+    password : 124
+};
+
+let {username:user, password:pass} = std;*/
+
+
+// let arr = [1,2,3];
+/*let squ = arr.map(function(el){
+    return el * el;
+})
+let finalans = squ.reduce((sum, el) => sum+el, 0);
+
+let avg = finalans/ arr.length;
+console.log(avg);*/
+
+
+/*let original = arr.map(function(el) {
+    return el+5;
+})
+console.log(original);*/
+
+
+/*let str = ["hello", "world", "everyone"];
+let newArr = str.map(function(el){
+    return el.toUpperCase();
+})
+
+console.log(newArr);*/
+
+/*const ans = (arr, ...arg) => [...arr, ...arg.map((v) => v*2)];
+console.log(ans([1,2,3,4], 5,6));*/
+
+/*const obj1 = {
+    name:"dimple",
+    age: 19,
+    course: "B.tech"
+};
+
+const obj2 = {
+    username : "dish.123",
+    password : 123
+};
+
+const mergeobj = (obj1, obj2) => ({...obj1, ...obj2});
+console.log(mergeobj(obj1,obj2));*/

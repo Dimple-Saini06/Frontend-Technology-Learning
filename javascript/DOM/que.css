@@ -1,0 +1,22 @@
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.divSty {
+    background-color: pink;
+    border: 2px solid black;
+}
+
+.color {
+    color: purple;
+    text-decoration: underline;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+}

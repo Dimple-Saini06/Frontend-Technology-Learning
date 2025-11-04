@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: Arial;
 }
 
@@ -28,4 +28,13 @@ body {
 
 #description {
   background-color: antiquewhite;
+}*/
+
+.box{
+  height:100px;
+  width:100px;
+  background-color: pink;
+  border:2px solid black;
 }
+
+

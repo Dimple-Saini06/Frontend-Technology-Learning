@@ -103,7 +103,7 @@ inp.addEventListener("keydown", function(event) {
 })*/
 
 
-let form = document.querySelector("form");
+/*let form = document.querySelector("form");
 form.addEventListener("submit", function(event){
     event.preventDefault();
     // let user = document.querySelector("#user");
@@ -112,9 +112,9 @@ form.addEventListener("submit", function(event){
     let pass = form.elements[1];
     console.log(user.value);
     console.log(pass.value);*/
-});
+// });
 
-let user = document.querySelector("#user");
+/*let user = document.querySelector("#user");
 user.addEventListener("change", function(event){
     console.log("input event");
     console.log("final event", user.value);
@@ -123,4 +123,5 @@ user.addEventListener("change", function(event){
 user.addEventListener("input", function(event){
     console.log("input event1");
     console.log("final event1", user.value);
-});
+});*/
+

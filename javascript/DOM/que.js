@@ -51,5 +51,22 @@ document.querySelector('body').append(h);
 h.classList.toggle('color');*/
 
 
+/*let button = document.querySelector("button");
+let window = document.querySelector("window");
+button.addEventListener("mouseout", function(){
+    console.log("MOUSE OUT ARE USED!!");
+});
 
+.onscroll = (event) => {
+    console.log("SCROLL ARE USED!!");
+};
+
+form.addEventListener("keypress", function(){
+    console.log("KEYPRESS ARE USED!!");
+});*/
+
+let button = document.querySelector("button");
+button.addEventListener("click", function(){
+    button.style.backgroundColor = "green";
+});
 

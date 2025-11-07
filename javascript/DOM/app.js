@@ -125,3 +125,20 @@ user.addEventListener("input", function(event){
     console.log("final event1", user.value);
 });*/
 
+let div = document.querySelector("div");
+let ul = document.querySelector("ul");
+let li = document.querySelectorAll("li");
+
+div.addEventListener("click", function() {
+    console.log("div was clicked..")
+});
+
+ul.addEventListener("click", function() {
+    console.log("ul was clicked..")
+});
+
+for(lis of li){
+    lis.addEventListener("click", function() {
+        console.log("li was clicked..")
+    });
+}

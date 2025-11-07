@@ -65,8 +65,15 @@ form.addEventListener("keypress", function(){
     console.log("KEYPRESS ARE USED!!");
 });*/
 
-let button = document.querySelector("button");
+/*let button = document.querySelector("button");
 button.addEventListener("click", function(){
     button.style.backgroundColor = "green";
-});
+});*/
 
+let h2 = document.querySelector("h2");
+let input = document.querySelector("input");
+
+
+input.addEventListener("input", function() {
+    h2.innerText = input.value;
+})

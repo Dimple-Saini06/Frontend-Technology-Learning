@@ -18,7 +18,7 @@ colorChange("red", 1000, () =>{
     })
 })*/
 
-function colorChange(color, delay){
+/*function colorChange(color, delay){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             h1.style.color = color;
@@ -125,3 +125,9 @@ savetoDb()
         console.log("reject failure");
         console.log("error is:", error);
     })*/
+
+async function greet() {
+    return "hello world";
+}
+
+console.log(greet());

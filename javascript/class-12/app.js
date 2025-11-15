@@ -17,9 +17,22 @@ let url = "https://catfact.ninja/fact";
 fetch(url)
     .then((res) => {
         console.log(res);
-        console.log(res.json().fact); 
+        return res.json(); 
+    })
+    .then((data) => {
+        console.log(data.fact); 
+        return  fetch(url);      
+    })
+    .then((res1) => {
+        console.log(res1);
+        return res1.json();
+    })
+    .then((data1) => {
+        console.log(data1.fact);
     })
     .catch((err) => {
         console.log(err);
     });
 
+
+console.log("This is after the fetch call");

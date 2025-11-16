@@ -14,8 +14,8 @@ console.log(jsTojson);*/
 
 let url = "https://catfact.ninja/fact";
 
-fetch(url)
-    .then((res) => {
+/* fetch(url)
+   .then((res) => {
         console.log(res);
         return res.json(); 
     })
@@ -29,10 +29,26 @@ fetch(url)
     })
     .then((data1) => {
         console.log(data1.fact);
+        return fetch(url);
+    })
+    .then((res2) => {
+        console.log(res2);
+        return res2.json();
+    })
+    .then((data2) => {
+        console.log(data2.fact);
     })
     .catch((err) => {
         console.log(err);
-    });
+    });*/
+
+async function getvalue(){
+    let res1 = fetch(url);
+    let data = (await res1.json());
+
+
+    console.log(data.fact);
+}
 
 
 console.log("This is after the fetch call");

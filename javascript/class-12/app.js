@@ -106,3 +106,23 @@ async function getJoke() {
     }
 }*/
 
+let url = "http://universities.hipolabs.com/search?name=";
+let btn = document.querySelector("button");
+
+btn.addEventListener("click", async function() {
+    let country = document.querySelector("input").value;
+    console.log(country);
+
+    let colArr = await getUniversities(country);
+    console.log(colArr);
+});
+
+async function getUniversities(country) {
+    try{
+        let res = await axios.get(url + country);
+        return res.data;
+    } catch(err) {
+        console.log(err);
+        return [];
+    }
+}

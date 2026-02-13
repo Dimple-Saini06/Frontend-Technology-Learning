@@ -84,10 +84,114 @@
 // }
 
 
-let s = Math.floor(Math.random() * 5) + 11;
+// let s = Math.floor(Math.random() * 5) + 11;
 
-let car = {
-    name : "bmw",
-    Model : "High",
-    color : "black"
-};
+// let car = {
+//     name : "bmw",
+//     Model : "High",
+//     color : "black"
+// };
+
+
+function outer() {
+    let x =5, y=6;
+    function inner(){
+        let z=8;
+        console.log(x);
+        console.log(y);
+    }
+    inner();
+}
+
+outer();
+
+// let sum = function(a,b){
+//     return a+b;
+// }
+
+// sum = function(a,b){
+//     console.log("namaste");
+// }
+
+// function multiple(func, count){
+//     func();
+//     count();
+// }
+
+// let func = function(){
+//     console.log("Hello");
+// }
+
+// let count = function(){
+//     console.log("Namaste");
+// }
+
+// multiple(func, count);
+
+//QUE
+// function uniqueStr(s){
+//     let str = "";
+//     for(let i=0;i<s.length;i++){
+//         if(!(str.includes(s[i]))){
+//             str += s[i];
+//         }
+//     }
+//     return str;
+// }
+// console.log(uniqueStr("abcdabcdefgggh"));
+
+
+// let arr = [10,12,3,4,5,6,7];
+// let num = 4;
+
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i] > num){
+//         console.log(arr[i]);
+//     }
+// }
+
+
+// let num = prompt("enter the number");
+// let arr;
+// let curr = 0;
+// for(let i=0;i<num;i++){
+//     arr[i] = prompt("enter country name");
+//     curr = arr[i].length;
+//     if(curr > max){
+//         max = curr;
+//     }
+// }
+
+ 
+// function countVowel(s){
+//    let count = 0;
+//     for(let i=0;i<s.length;i++){
+//         if(s.charAt(i)=='a' || s.charAt(i)=='e' || s.charAt(i)=='i' || s.charAt(i)=='o' || s.charAt(i)=='u'){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+
+// console.log(countVowel("chanda"));
+
+
+
+// function range(start, end){
+//     let diff = end-start;
+//     console.log(Math.floor(Math.random() * diff) + start);
+// }
+// let start = 5;
+// let end = 10;
+// range(start, end);
+
+
+// const mul = (a,b) => a*b;
+
+// console.log("hello");
+// setTimeout(()=> {
+//     console.log(a);
+// }, 3000);
+// console.log("hello");
+// console.log("hello");

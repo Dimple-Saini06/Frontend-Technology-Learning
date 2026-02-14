@@ -2,10 +2,21 @@ li{
     display : inline;
 }
 
-div {
+.container {
+    height:300px;
+    width: 500px;
+    border : 2px solid black;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-content:space-around;
+    /* flex-wrap:wrap; */
+}
+.container div {
     height:100px;
-    width: 100px;
-    background-image: url("https://cdn.twocontinents.com/hfpqy_V7_B_IMG_Dubai_UAE_1200x800_e1936b3330.jpg");
-    background-size: cover;
+    width: 50px;
+    border : 1px solid black;
+    /* background-image: url("https://cdn.twocontinents.com/hfpqy_V7_B_IMG_Dubai_UAE_1200x800_e1936b3330.jpg");
+    background-size: cover; */
     /* background-repeat: no-repeat; */
 }

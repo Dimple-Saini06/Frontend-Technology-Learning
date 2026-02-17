@@ -1,0 +1,36 @@
+#container {
+    height :100px;
+    width: 100px;
+    border:border-box;
+    /* border: 2px solid black; */
+    /* transition: all 2s ease-in 1s;
+    animation-name: cont; */
+    
+}
+
+#cont {
+    height :200px;
+    width: 200px;
+    /* border:border-box; */
+     border: 2px solid black;
+    /* transition: all 2s ease-in 1s;
+    animation-name: cont; */
+    
+}
+
+@keyframes cont {
+    from{font-size: 30px;}
+    to{font-size: 60px;;}
+}
+.first div{
+    height :50px;
+    width: 50px;
+    border:1px solid blue;
+    /* margin:2px; */
+}
+
+.first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

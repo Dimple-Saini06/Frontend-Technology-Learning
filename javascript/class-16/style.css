@@ -1,0 +1,60 @@
+/* .box {
+    height : 100px;
+    width:100px;
+    background-color: antiquewhite;
+
+    /* transform: skewX(30deg);
+    transition: all 4s; */
+    /* animation: changeColor 5s ease-in 2s infinite;  */
+    /* animation: changeShape 5s ease-in 2s 3; */
+/* } */
+
+/* @keyframes changeColor {
+    from {
+        /* background-color: rgb(192, 113, 17);
+        color:red;
+        height:300px;
+        width :300px;
+        font-size: 20px; */
+        /* transform : skewX(20deg);
+    }
+    to { */ 
+        /* background-color: rgb(8, 5, 0);
+        color:white;
+        height:500px;
+        width :500px;
+        font-size: 50px; */
+        /* transform : skewX(60deg);
+    }
+} */
+
+/* @keyframes changeShape {
+    0% {
+        transform : skewX(20deg);
+    }
+    50% {
+        transform : skewX(-20deg);
+    }
+    100% {
+        transform : skewX(90deg);
+    }
+} */ 
+
+/* .container {
+    height :50px;
+    width : 900px;
+    border :1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: pink;
+    display : flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+
+.container span {
+    height :50px;
+    width : 80px;
+    font-size: 24px;
+    line-height: 50px;
+} */

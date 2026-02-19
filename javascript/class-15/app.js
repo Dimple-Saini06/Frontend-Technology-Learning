@@ -26,8 +26,18 @@
 const object = {
     message : "hello world",
     logMessage(){
-        console.log(this);
+        console.log(this.message);
     }
 }
 
-setTimeout(object.logMessage, 4000);
+setTimeout(object.logMessage(), 4000);
+
+// var length=4;
+// function callback(){
+//     console.log(this.length);
+// }
+// const object={length:5,
+//     method(callback)
+//     {callback();},
+// };
+// object.method(callback,1,2);

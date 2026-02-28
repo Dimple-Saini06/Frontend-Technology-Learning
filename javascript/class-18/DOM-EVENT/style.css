@@ -1,0 +1,13 @@
+.colorChange {
+    background-color: yellow;
+    color :black;
+}
+
+div {
+    font-size:50px;
+}
+
+.heart {
+    color: red;
+    -webkit-text-stroke: 2px rgb(25,56,13);
+}

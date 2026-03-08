@@ -48,14 +48,23 @@
 
 // let chnage = JSON.stringify(valForm);
 
-let url = "https://catfact.ninja./fact2";
+let url = "https://catfact.ninja./fact";
 
 fetch(url)
-.then((res)=> {
-    return res.json();
+.then((res1)=> {
+    // console.log(res);
+    // console.log(res.json());
+    return res1.json();
 })
-.then((res)=>{
-    console.log(res.fact);
+.then((res1)=>{
+    console.log(res1.fact);
+    return fetch(url);
+})
+.then((res2)=>{
+    return res2.json();
+})
+.then((res2)=>{
+    console.log(res2.fact);
 })
 .catch((err) => {
     console.log(err);
